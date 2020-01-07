@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(24, 29, 56);
+}
+
+#container, #login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#container img{
+    width: 500px;
+}
+
+#login input{
+    width: 16em;
+    height: 2.1em;
+    border-radius: 0.4em;
+    border: none;
+    padding: 0.5em;
+    margin-bottom: 0.4em;
+}
+
+#login button{
+    margin-top: 1em;
+    width: 17em;
+    height: 2.2em;
+    border-radius: 0.4em;
+    background-color: #3ebaa8;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
