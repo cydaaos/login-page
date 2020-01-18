@@ -15,7 +15,7 @@ body{
 }
 
 #container img{
-    width: 500px;
+    width: 30em;
 }
 
 #login input{
@@ -51,4 +51,14 @@ body{
     border: none;
     color: #fff;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #container img{
+        width: 19em;
+    }
+    #container, #login{
+        transform: translate3d(-52%, -50%, 0);
+    }
 }
